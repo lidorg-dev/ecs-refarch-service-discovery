@@ -1,4 +1,4 @@
-FROM golang
+FROM golang:1.23rc2
 
 RUN go get github.com/goji/httpauth && go get github.com/gorilla/mux
 
